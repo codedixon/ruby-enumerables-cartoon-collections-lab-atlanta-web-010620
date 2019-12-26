@@ -1,5 +1,7 @@
-def roll_call_dwarves(source_array){|x| }
+def roll_call_dwarves(source_array)
+  new_array = {|x| x.each_with_index}
   # Your code here
+  return new_array
   
 end
 
