@@ -1,4 +1,4 @@
-def roll_call_dwarves(source_array){}
+def roll_call_dwarves(source_array){|x| }
   # Your code here
   
 end
