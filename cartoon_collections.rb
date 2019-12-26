@@ -1,7 +1,10 @@
 def roll_call_dwarves(source_array)
   source_array.each_with_index{|dwarf, index|}
-  
-  puts source_array
+  i = 0
+  while i < source_array.length
+  puts source_array[i]
+  i += 1
+  end
   return source_array
 end
 
