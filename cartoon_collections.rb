@@ -9,8 +9,8 @@ def roll_call_dwarves(source_array)
 end
 
 def summon_captain_planet(source_array)
-new_array = source_array.map{|x| x.capitalize()}
-new_array = new_array.map{|x| x + "!"}
+new_array = source_array.map{|x| x.capitalize() + "!"}
+#new_array = new_array.map{|x| x + "!"}
 return new_array
 end
 
