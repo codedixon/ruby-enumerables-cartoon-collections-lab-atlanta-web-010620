@@ -1,5 +1,5 @@
 def roll_call_dwarves(source_array)
-  source_array.each_with_index{|val,index|}
+  source_array.each_with_index{|dwarf,index|}
   puts source_array
   return source_array
 end
