@@ -1,8 +1,6 @@
 def roll_call_dwarves(source_array)
   new_array = {|x| x.each_with_index}
-  # Your code here
   return new_array
-  
 end
 
 def summon_captain_planet# code an argument here
