@@ -14,9 +14,7 @@ return new_array
 end
 
 def long_planeteer_calls(source_array)
-  value = source_array.any? {|x| x > 4} 
-  # Your code here
-  return value
+  return source_array.any? {|x| x > 4} 
 end
 
 def find_the_cheese# code an argument here
