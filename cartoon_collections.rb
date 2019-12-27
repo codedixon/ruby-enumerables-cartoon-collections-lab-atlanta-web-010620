@@ -13,7 +13,8 @@ new_array = source_array.map{|x| x.capitalize() + "!"}
 return new_array
 end
 
-def long_planeteer_calls(# code an argument here)
+def long_planeteer_calls(source_array)
+  source_array.map{|x| if x > 4 
   # Your code here
 end
 
