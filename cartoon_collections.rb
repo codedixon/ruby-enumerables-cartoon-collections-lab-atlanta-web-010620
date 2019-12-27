@@ -14,8 +14,8 @@ return new_array
 end
 
 def long_planeteer_calls(source_array)
-  w
-value = source_array.any? {|x| x > 4} 
+letters = source_array.map {|x| x.length}
+value = letters.any? {|x| x > 4} 
 end
 
 def find_the_cheese# code an argument here
