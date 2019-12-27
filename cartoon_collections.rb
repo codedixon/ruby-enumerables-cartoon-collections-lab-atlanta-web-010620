@@ -20,6 +20,6 @@ end
 
 def find_the_cheese(source_array)
   # the array below is here to help
-  find_cheese = source_array.find {|x| x == "cheddar" || "gouda" || x == "camembert"}
+  find_cheese = source_array.find {|x| x == "cheddar" || x == "gouda" || x == "camembert"}
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
