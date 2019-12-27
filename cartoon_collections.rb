@@ -14,7 +14,6 @@ return new_array
 end
 
 def long_planeteer_calls(source_array)
-  if x > 4
   source_array.map{|x| true} 
   # Your code here
 end
